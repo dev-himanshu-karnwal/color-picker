@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <style>
+        body {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(99deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 87%);
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 8px 7px 10px black;
+            font-size: 40px;
+            padding: 0;
+            margin-bottom: 20px;
+            border-bottom: 7px skyblue dotted;
+        }
+
+        button {
+            display: block;
+            margin: 10px auto;
+            font-size: 1.5em;
+            background-color: transparent;
+            border: 3px black outset;
+            cursor: pointer;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 500;
+        }
+
+        button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 15px black;
+
+        }
+
+        img {
+            margin: 20px auto;
+            height: 450px;
+            border: 10px white inset;
+            width: 700px;
+            display: block;
+        }
+
+        div {
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            background-color: rgba(1, 1, 1, 0.3);
+        }
+
+        .result {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>COLOR &nbsp; PICKER</h1>
+    <img src="indian-temple-4782312.jpg" alt="IMAGE">
+    <button>Pick Color</button>
+    <div>
+        Result : <span class="result">#------</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
